@@ -1,0 +1,206 @@
+@import "utilities.css";
+
+:root {
+    --orange: #F17720;
+    --blue: #00A7E1;
+    --grey: #EBEBEB;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+header {
+    background-color: rgb(174, 216, 231);
+    /* background-image: url(../images/images.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 150%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+    padding-bottom: 4rem;
+}
+.container {
+    max-width: 68%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a {
+    /* color: var(--blue); */
+    color: var(--orange);
+    text-decoration: none;
+    margin-right: 4rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover {
+    color: var(--blue);
+}
+header nav {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+header nav .branding {
+    margin-right: 3rem;
+}
+.hero {
+    padding-bottom: 4.5rem;
+}
+.hero .left img {
+    width: 375px;
+}
+.hero .right h6 {
+    font-size: 2.3rem;
+    color: var(--blue);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1 {
+    font-size: 3rem;
+    margin-bottom: 1.3rem;
+}
+.hero .right h1 span {
+    color: var(--orange)
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+section.about {
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+}
+section.about h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 1000;
+}
+section.about span {
+    color: var(--orange)
+}
+section.about h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about h3 span {
+    color: var(--blue);
+}
+section.about p {
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+}
+section.about .social {
+    display: flex;
+}
+section.about .social a {
+    display: flex;
+    background-color: var(--blue);
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 60%;
+    margin-right: 1.4rem;
+    transition: all .3s ease;
+}
+section.about .social a img {
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+}
+section.about .social a:hover {
+    background-color: var(--orange);
+}
+ 
+section.skills {
+    padding: 6rem 0;
+    clip-path: polygon(0 10%, 30% 0, 100% 10%, 100% 100%, 0 100%);
+    background-color: rgb(174, 216, 231);
+    margin-bottom: 5rem;
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    font-size: 1.8rem;
+    color: var(--blue);
+}
+section.skills .skills-para span {
+    color: var(--orange);
+}
+section.skills span {
+    color: var(--blue);
+}
+.section-heading + p{
+    color: black;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+section.skills .quote-author {
+    color: black;
+    font-weight: 800;
+    margin-left: 60%;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 1.1rem;
+}
+section.skills img {
+    width: 90px;
+    height : 90px;
+}
+section.skills .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    margin-top: 4rem;
+}
+section.skills .card-wrapper .card {
+    background-color: #F8F8FF;
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 3.4rem;
+    text-align: center;
+    transition: all .3s ease;
+}
+section.skills .card-wrapper .card img {
+    position: absolute;
+    top: -2.8rem;
+    left: 50%;
+    transform: translate(-50%);
+    /* background-color: #84e6ff; */
+}
+section.skills .card-wrapper .card h2 {
+    /* font-size: 2rem; */
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    color: var(--orange);
+}
+section.skills .card-wrapper .card p {
+    color: var(--blue);
+    line-height: 1.6rem;
+    font-weight: 700;
+}
+section.skills .card-wrapper .card:hover {
+    background-color: #F4BB44;
+}
+section.skills .card-wrapper .card:hover h2 {
+    color: var(--blue);
+}
+section.skills .card-wrapper .card:hover p{
+    color: black;
+}
+section.projects p span {
+    color: var(--orange);
+}
+section.projects .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

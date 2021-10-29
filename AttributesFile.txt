@@ -1,0 +1,18 @@
+Attribute link for social media icons used
+	<a href="https://iconscout.com/icons/<--icon name-->" target="_blank"><--icon name--> Icon</a> by <a href="https://iconscout.com/contributors/unicons">Unicons Font</a> on <a href="https://iconscout.com">Iconscout</a>
+
+
+Attribute link for c icon used
+	<a href="https://iconscout.com/icons/c" target="_blank">C Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+
+
+Attribute link for python icon used
+	<a href="https://iconscout.com/icons/python" target="_blank">Python Icon</a> by <a href="https://iconscout.com/contributors/icon-54">Icon 54</a> on <a href="https://iconscout.com">Iconscout</a>
+
+
+Attribute link for html icon used
+	<a href="https://iconscout.com/icons/html" target="_blank">Html Icon</a> by <a href="https://iconscout.com/contributors/icon-54" target="_blank">Icon 54</a>
+
+
+Attribute link for css icon used
+	<a href="https://iconscout.com/icons/css" target="_blank">Css Icon</a> by <a href="https://iconscout.com/contributors/jagathish">Jagathish Saravanan</a> on <a href="https://iconscout.com">Iconscout</a>
