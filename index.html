@@ -36,7 +36,12 @@
                 </div>
                 <div class="right flex-1">
                     <h6>A S Adithiyaa</h6>
-                    <h1>I'm a <span>Student</span></h1>
+                    <h1>I'm a <span id = 'whoami' onmouseover = "change_myself()">Student</span></h1>
+                    <script>
+                        function change_myself(){
+                            document.getElementById("whoami").innerHTML = "Learner";
+                        }
+                    </script>
                     <p>Hi There!, I am currently pursuing B.E in AI&ML(Artificial Intelligence and Machine Learning). I occasionally take to coding in Python, Web Development. </p>
                     <div class="right-button">
                         <button class="btn btn-secondary">Download CV</button>
