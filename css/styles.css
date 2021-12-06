@@ -43,6 +43,12 @@ header nav {
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
+header.who :hover span{
+    display:none
+}
+header.who :hover :before{
+    content:"Reply"
+}
 /* header nav .branding {
     margin-right: 3rem;
 } */
