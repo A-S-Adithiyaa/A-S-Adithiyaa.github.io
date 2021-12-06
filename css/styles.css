@@ -43,11 +43,6 @@ header nav {
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
-header #whoami{
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
 /* header nav .branding {
     margin-right: 3rem;
 } */
