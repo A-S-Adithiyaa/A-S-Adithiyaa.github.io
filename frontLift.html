@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RouteMap</title>
+    <script>
+        function displaySem() {
+            let img = document.getElementById("image");
+            let vid = document.getElementById("videosrc");
+            img.src = "frontSem.png";
+            vid.src = "front2Sem.mp4";
+        }
+
+        function display504() {
+            let img = document.getElementById("image");
+            let vid = document.getElementById("videosrc");
+            img.src = "front504.png";
+            vid.src = "front2504.mp4";
+        }
+    </script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="back">
+        <div>
+            <img id="image" src="Transcendence.PNG"  />
+        </div>
+
+        <video id="videosrc" loop autoplay muted>
+            <source src="Intro.mp4" type="video/mp4">
+        </video>
+
+        <button class="button-85" type="button" onClick="displaySem()">Seminar Hall</button>
+        <button class="button-85" type="button" onClick="display504()">BSN-CR-504</button>
+    </div>
+</body>
+</html>
